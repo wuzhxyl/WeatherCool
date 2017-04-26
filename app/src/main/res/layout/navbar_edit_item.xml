@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#353535"
+    android:layout_width="match_parent"
+    android:layout_height="44dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/navbar_back_2"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:hint="Hello, world!"
+        android:id="@+id/edit"
+        android:maxLines="1"
+        android:textColor="#5A5A5A"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="#FFFFFF"
+        android:imeOptions="actionSearch"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok"
+        android:src="@drawable/navbar_ok_2"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        />
+</LinearLayout>

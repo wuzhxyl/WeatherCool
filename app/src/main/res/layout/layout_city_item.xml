@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityname"
+        android:textColor="#4A4A4A"
+        android:text="杭州"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:textColor="#4A4A4A"
+        android:text="双城国际2-3-9"
+        android:layout_below="@id/cityname"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeatherCool</string>
+    <string name="sunrise">SunRise</string>
+    <string name="sunset">SunSet</string>
+    <string name="refreshTs">Refresh Time</string>
+    <string name="temp">Temperature: %d ℃</string>
+    <string name="humi">Humidity: %d %</string>
+    <string name="PM2.5">PM2.5: </string>
+    <string name="weathercity">%s[Switch]</string>
+    <string name="weathertemp">%d ℃</string>
+    <string name="weatherPM25">%s ug/m³</string>
+    <string name="Back">Back</string>
+    <string name="OK">OK</string>
+
+</resources>

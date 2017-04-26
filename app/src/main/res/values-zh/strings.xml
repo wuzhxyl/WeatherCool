@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">极简天气</string>
+    <string name="sunrise">日出时间</string>
+    <string name="sunset">日落时间</string>
+    <string name="refreshTs">刷新时间</string>
+    <string name="temp">温度</string>
+    <string name="humi">湿度</string>
+    <string name="weathercity">%s[切换]</string>
+    <string name="weathertemp">%s ℃</string>
+
+    <string name="Back">回退</string>
+    <string name="OK">确定</string>
+</resources>

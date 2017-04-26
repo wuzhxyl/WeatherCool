@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/weather_03n"
+        android:id="@+id/imgview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="24dp"
+        android:id="@+id/temperate"
+        android:gravity="bottom"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/temp"
+            android:text="30"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="80sp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="℃"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/temp"
+            android:gravity="left|center_vertical"
+            android:layout_toEndOf="@id/temp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/temperate"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loc"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:text="杭州"
+            android:gravity="left|bottom"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pm"
+            android:text="- ug/m³"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:gravity="left|top"
+            android:layout_below="@+id/loc"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/humi"
+            android:text="- %"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:gravity="left|top"
+            android:layout_below="@+id/pm"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical|right"
+        android:textColor="#FFFFFF"
+        android:layout_alignEnd="@id/imgview"
+        android:layout_alignBottom="@id/imgview"
+        android:text="适合出游"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/del"
+        android:clickable="true"
+        android:id="@+id/delBtn"
+        />
+
+</RelativeLayout>
